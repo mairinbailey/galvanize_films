@@ -1,3 +1,56 @@
+@import url(https://fonts.googleapis.com/css?family=Warnes);
+@import url(https://fonts.googleapis.com/css?family=Warnes|Open+Sans+Condensed:300);
+
 body {
-  background-color: blue;
+font-family: 'Open Sans Condensed', sans-serif;
+padding: 2rem;
+}
+
+.jumbotron {
+  background-image: url("https://images.unsplash.com/photo-1458053688450-eef5d21d43b3?format=auto&auto=compress&dpr=1&crop=entropy&fit=crop&w=1080&h=718&q=80");
+  background-size: contain;
+  color: white;
+  text-align: center;
+  font-size: 5rem;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.form-group {
+  font-size: 2rem;
+}
+
+.header{
+  background-color: #050E1D;
+  text-size: 1rem;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+  font-family: 'Warnes', cursive;
+}
+
+label, input, textarea, select {
+  display: block;
+  width: 30rem;
+  margin: 1rem;
+}
+
+/*input:not(:last-child) {
+  margin-bottom: 1rem;
+
+}*/
+
+h2{
+  margin-bottom: 2rem;
+}
+
+textarea {
+  height: 6rem;
+  resize: none;
+}
+
+.add-movie {
+    background-image: url("https://images.unsplash.com/photo-1458053688450-eef5d21d43b3?format=auto&auto=compress&dpr=1&crop=entropy&fit=crop&w=1080&h=718&q=80");
+    color: white;
+    padding: 1rem;
+    font-size: 2rem;
 }

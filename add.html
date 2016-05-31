@@ -12,8 +12,43 @@
 
   </head>
   <body>
-    <h1>Galvanize Films</h1>
+    <div class = "container-fluid">
+      <div class="header">
+    <h1><a href="index.html">Galvanize Films home</a></h1>
+    </header>
+  </div>
+  <br>
+    <div class="add-movie">
+    <h2>Add Movie</h2>
+    <form class="" action="index.html" method="post">
+      <label for="title">Title</label>
+      <input id="title" type="text">
 
+      <label for="genre">Genre</label>
+      <input id="genre" type="text">
+
+      <label for="description">Description</label>
+      <textarea id="description"></textarea>
+
+      <label for="url">Cover Picture URL</label>
+      <input id="id" type="url" name="url">
+
+      <label for="rating">Rating</label>
+      <select id="rating">
+        <option>G</option>
+        <option>PG</option>
+        <option>PG-13</option>
+        <option>R</option>
+        <option>NC-17</option>
+        <option>NR</option>
+      </select>
+
+
+    <input type="button" name="Submit" value="Add movie">
+    <output class="message"></output>
+    </form>
+  </div>
+  </main>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="app.js"></script>
