@@ -10,7 +10,7 @@ $(document).ready(function(){
 
 $("#search").click(function(e){
   e.preventDefault();
-  var movieName = $("#movie-name").val();
+  var movieName = $("#movie-name").val().toLowerCase().replace(/\s+/g, '+');
   localStorage.setItem('movie', movieName);
   window.location="movies.html";
   console.log(localStorage.getItem('movie'));
